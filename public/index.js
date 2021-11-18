@@ -1,6 +1,8 @@
+import { checkForIndexedDb, saveRecord } from "./indexedDb";
 let transactions = [];
 let myChart;
 
+console.log("hitest");
 fetch("/api/transaction")
   .then(response => {
     return response.json();
