@@ -1,21 +1,27 @@
 {
-  "name": "budget-app",
+  "name": "budget-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "a simple budget tracking app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "lite-server": "lite-server"
+    "lite-server": "lite-server",
+    "start:prod": "npm run build && node server.js",
+    "start:dev": "concurrently \"npm run server\" \"cd public && npm run start\"",
+    "server": "nodemon server.js --ignore client",
+    "build": "cd public && npm run build",
+    "install": "cd public && npm install",
+    "client": "cd public && npm start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "git+https://github.com/gulpinhenry/budget-tracker.git"
   },
-  "author": "",
+  "author": "Henry Kam",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/gulpinhenry/budget-tracker/issues"
   },
   "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "dependencies": {
@@ -26,11 +32,7 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.4",
-    "babel-loader": "^8.2.3",
-    "webpack": "^5.64.1",
-    "webpack-cli": "^4.9.1",
-    "webpack-pwa-manifest": "^4.3.0"
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
   }
 }
