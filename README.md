@@ -1,18 +1,87 @@
-# Unit 19 PWA Homework: Online/Offline Budget Trackers
+# Online/Offline Budget Tracker
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Table of Contents
+
+- [Online/Offline Budget Tracker](#onlineoffline-budget-tracker)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Usage](#usage)
+  - [Built With](#built-with)
+  - [Technologies Used](#technologies-used)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Questions](#questions)
+  - [User Story](#user-story)
+  - [Business Context](#business-context)
+  - [Acceptance Criteria](#acceptance-criteria)
+  - [Commit Early and Often](#commit-early-and-often)
+  - [Submission on BCS](#submission-on-bcs)
+  - [Hint](#hint)
+  
+
+## Description
+A progressive web application for tracking deposits and expenses. Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success. The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. I used this app to explore indexDb as well as webpacks and progressive web application features
+
+ <br />
+
+
+
+[Demo walkthrough]()
+
+## Usage
+
+[View Deployment](https://techblog-henrykam.herokuapp.com/)
+
+<br>
+
+## Built With
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  * [bcrypt](https://www.npmjs.com/package/bcrypt)
+  * [dotenv](https://www.npmjs.com/package/dotenv)
+  * [Express Handlebars](https://www.npmjs.com/package/express-handlebars)
+  * [MySQL2](https://www.npmjs.com/package/mysql2)
+  * [Node.js](https://nodejs.org/en/)
+  * [nodemon](https://nodemon.io/)
+  * [Sequelize](https://sequelize.org/)
+* [MySQL](https://www.mysql.com)
+
+
+
+## Technologies Used
+
+* [Microsoft Visual Studio Code](https://code.visualstudio.com/)
+* [Git Bash](https://git-scm.com/downloads)
+* [GitHub](https://github.com/)
+* [Insomnia](https://insomnia.rest/)
+* [Heroku](https://www.heroku.com/)
+* [Robo 3T](https://robomongo.org/)
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+* [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
+
+## Contributing
+
+
+**Henry Kam**
+
+- [Github](https://github.com/gulpinhenry)
+- [LinkedIn](https://www.linkedin.com/in/kamhenry/)
+
+
+## License
+
+This application is covered under the MIT license
+
+## Questions
+
+For any questions, please reach out by creating an issue.
+
 
 Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
 
 ## User Story
 AS AN avid traveller
@@ -21,7 +90,7 @@ SO THAT my account balance is accurate when I am traveling
 
 ## Business Context
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+
 
 
 ## Acceptance Criteria
