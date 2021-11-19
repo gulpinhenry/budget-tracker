@@ -1,5 +1,5 @@
-console.log("hiiiii");
-//import { saveRecord, checkDatabase } from "./indexedDb.js";
+//const {saveRecord, checkDatabase} = require("./indexedDb");
+import { saveRecord, checkDatabase } from "./indexedDb.js";
 let transactions = [];
 let myChart;
 
@@ -14,6 +14,7 @@ fetch("/api/transaction")
     populateTotal();
     populateTable();
     populateChart();
+    checkDatabase();
   });
 
 function populateTotal() {

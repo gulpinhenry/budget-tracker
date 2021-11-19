@@ -21,7 +21,7 @@ request.onerror = function (event) {
   console.log("Encounter error here! " + event.target.errorCode);
 };
 
-function saveRecord(record) {
+export function saveRecord(record) {
   // create a transaction on the pending db with readwrite access
   const transaction = db.transaction(["pending"], "readwrite");
 
@@ -32,7 +32,7 @@ function saveRecord(record) {
   store.add(record);
 }
 
-function checkDatabase() {
+export function checkDatabase() {
   // open a transaction on your pending db
   const transaction = db.transaction(["pending"], "readwrite");
   // access your pending object store
@@ -67,3 +67,4 @@ function checkDatabase() {
 
 // listen for app coming back online
 window.addEventListener("online", checkDatabase);
+

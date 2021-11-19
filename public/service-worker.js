@@ -2,9 +2,9 @@ const FILES_TO_CACHE = [
   "/",
   "/index.html",
   "/assets/css/styles.css",
-  "/assets/js/index.js",
-  "/assets/js/indexDb.js",
-  // '/dist/bundle.js',
+//   "/assets/js/index.js",
+  "/assets/js/indexedDb.js",
+  '/dist/bundle.js',
   "https://cdn.jsdelivr.net/npm/chart.js@2.8.0",
   "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
 ];
