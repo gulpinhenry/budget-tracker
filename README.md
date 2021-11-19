@@ -27,7 +27,7 @@ A progressive web application for tracking deposits and expenses. Giving users a
 
 
 
-[Demo walkthrough]()
+![Demo walkthrough](./public/assets/ezgif-3-c8203a1b1529.gif)
 
 ## Usage
 
