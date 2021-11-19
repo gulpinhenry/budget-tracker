@@ -31,22 +31,22 @@ A progressive web application for tracking deposits and expenses. Giving users a
 
 ## Usage
 
-[View Deployment](https://techblog-henrykam.herokuapp.com/)
+[View Deployment](https://budget-tracker-henrykam.herokuapp.com/)
 
 <br>
 
 ## Built With
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [Babel](https://babeljs.io/)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Express.js](https://expressjs.com/)
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  * [bcrypt](https://www.npmjs.com/package/bcrypt)
-  * [dotenv](https://www.npmjs.com/package/dotenv)
-  * [Express Handlebars](https://www.npmjs.com/package/express-handlebars)
-  * [MySQL2](https://www.npmjs.com/package/mysql2)
-  * [Node.js](https://nodejs.org/en/)
-  * [nodemon](https://nodemon.io/)
-  * [Sequelize](https://sequelize.org/)
-* [MySQL](https://www.mysql.com)
+* [MongoDB](https://www.mongodb.com/)
+* [Mongoose](https://www.npmjs.com/package/mongoose)
+* [Morgan](https://www.npmjs.com/package/morgan)
+* [Node.js](https://nodejs.org/en/)
+* [Nodemon](https://www.npmjs.com/package/nodemon)
+* [Webpack](https://webpack.js.org/)
 
 
 
